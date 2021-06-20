@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+.container h1 {
+  font-family: "Ubuntu", sans-serif;
+}
+
+.container p {
+  font-family: "Kanit", sans-serif;
+}
+
+.input-group input {
+  font-family: "Ubuntu", sans-serif;
+}
+
+.form-group label {
+  font-family: "Kanit", sans-serif;
+}
+
+.form-group textarea {
+  font-family: "Ubuntu", sans-serif;
+}
+
+footer p {
+  font-family: "Kanit", sans-serif;
+}
+
+.text-purple {
+  color: #800080;
+}
+
+.text-pink {
+  color: #ff1493;
+}
+
+.text-yellow {
+  color: #e4e41b;
+}
+/*# sourceMappingURL=style.css.map */
