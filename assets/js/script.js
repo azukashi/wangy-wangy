@@ -59,3 +59,11 @@ $("#nama").on("keyup", function (e) {
     wangy(nama);
   }
 });
+$('#btn-copy').click(() => {
+  const temp = $('<input>');
+  $('body').append(temp);
+  temp.val($('#isi').val());
+  temp.select();
+  document.execCommand('copy');
+  temp.remove();
+})
