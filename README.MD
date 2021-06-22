@@ -9,6 +9,7 @@
 - Dan Copy Hasilnya.
 - Enjoy :)
 
-## Author
+## Author & Contributors
 
-- Gifaldy Azka
+- [Gifaldy Azka](https://github.com/gifaldyazkaa)
+- [BayuDC](https://github.com/BayuDC)
