@@ -35,4 +35,12 @@ footer p {
 .text-yellow {
   color: #e4e41b;
 }
+
+hoverable {
+  color: #212529;
+}
+
+hoverable:hover {
+  color: #800080;
+}
 /*# sourceMappingURL=style.css.map */
