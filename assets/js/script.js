@@ -17,11 +17,11 @@ function wangy(nama) {
     namaKecil +
     " wangi aku mau nyiumin aroma wanginya " +
     namaKecil +
-    "AAAAAAAH ~~ Rambutnya.... aaah rambutnya juga pengen aku elus-elus ~~~~~ AAAAAH " +
+    " AAAAAAAH ~~ Rambutnya.... aaah rambutnya juga pengen aku elus-elus ~~~~~ AAAAAH " +
     namaBesar +
     " keluar pertama kali juga manis ❤ ❤ ❤ dia pas ngedesah juga manis banget AAAAAAAAH " +
     namaBesar +
-    "LUCCUUUUUUUUUUUUUUU............ GUA BAKAL BAKAR DUIT 12 JUTA RUPIAH BUAT " +
+    " LUCCUUUUUUUUUUUUUUU............ GUA BAKAL BAKAR DUIT 12 JUTA RUPIAH BUAT " +
     namaBesar +
     " AAAAAAAAAAAAAAAAAAAAAAAAAAAAGH ❤ ❤ ❤ \napa ? " +
     namaBesar +
@@ -59,11 +59,11 @@ $("#nama").on("keyup", function (e) {
     wangy(nama);
   }
 });
-$('#btn-copy').click(() => {
-  const temp = $('<input>');
-  $('body').append(temp);
-  temp.val($('#isi').val());
+$("#btn-copy").click(() => {
+  const temp = $("<input>");
+  $("body").append(temp);
+  temp.val($("#isi").val());
   temp.select();
-  document.execCommand('copy');
+  document.execCommand("copy");
   temp.remove();
-})
+});
