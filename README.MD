@@ -1,15 +1,15 @@
 <h1 align="center">Wangy-wangy Generator</h1>
 
-`Wangy Wangy Generator` adalah Open Source Tools yang saya buat karena Iseng dan Gabut, Sekalian sambil Belajar SASS Juga. Dan kalau ada yang mau pakai tools ini, Silahkan aja.
+`Wangy Wangy Generator` adalah Open Source Tools yang saya buat karena Iseng dan Gabut, Sekalian sambil Belajar SASS Juga. Dan kalau ada yang mau pakai tools ini, Dipersilahkan :)
 
 ## Cara menggunakan
 
-- Visit [`Wangy Wangy Generator Website`](https://gifaldyazkaa.github.io/wangy-wangy)
+- Kunjungi [`Wangy Wangy Generator Website`](https://gifaldyazkaa.is-a.dev/wangy-wangy)
 - Masukkan Nama Waifu 2D mu di field yang tersedia.
 - Dan Copy Hasilnya.
 - Enjoy :)
 
-## Build with
+## Built with
 
 This Project is Created and Build with :
 
