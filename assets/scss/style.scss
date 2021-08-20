@@ -1,50 +1,57 @@
-@import url("https://fonts.googleapis.com/css2?family=Kanit&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
-$kanit: "Kanit", sans-serif;
-$uwuntu: "Ubuntu", sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Lexend&display=swap");
+$lexend: "Lexend", sans-serif;
 
 .container {
   h1 {
-    font-family: $uwuntu;
+    font-family: $lexend;
   }
   p {
-    font-family: $kanit;
+    font-family: $lexend;
   }
 }
 
 .input-group {
   input {
-    font-family: $uwuntu;
+    font-family: $lexend;
+    outline: none !important;
+  }
+  button {
+    font-family: $lexend;
   }
 }
 
 .form-group {
   label {
-    font-family: $kanit;
+    font-family: $lexend;
   }
   textarea {
-    font-family: $uwuntu;
+    font-family: $lexend;
+  }
+}
+
+.cp-btn {
+  button {
+    font-family: $lexend;
   }
 }
 
 footer {
   p {
-    font-family: $kanit;
+    font-family: $lexend;
   }
-}
-
-.text-purple {
-  color: #800080;
-}
-.text-pink {
-  color: #ff1493;
-}
-.text-yellow {
-  color: #e4e41b;
-}
-hoverable {
-  color: #212529;
-}
-hoverable:hover {
-  color: #800080;
+  .text-purple {
+    color: #800080;
+  }
+  .text-pink {
+    color: #ff1493;
+  }
+  .text-yellow {
+    color: #e4e41b;
+  }
+  hoverable {
+    color: #212529;
+  }
+  hoverable:hover {
+    color: #800080;
+  }
 }
