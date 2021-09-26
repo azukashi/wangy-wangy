@@ -1,3 +1,30 @@
+function setLightMode() {
+  const dark = document.querySelector(".dark-mode");
+  const light = document.querySelector(".light-mode");
+  const body = document.querySelector("body");
+  const theme_color = document.querySelector("#theme-color");
+  dark.classList.toggle("d-none");
+  light.classList.toggle("d-none");
+  body.classList.remove("dark");
+  theme_color.setAttribute("content", "#FFFFFF");
+  localStorage.removeItem("theme");
+}
+function setDarkMode() {
+  const dark = document.querySelector(".dark-mode");
+  const light = document.querySelector(".light-mode");
+  const body = document.querySelector("body");
+  const theme_color = document.querySelector("#theme-color");
+  light.classList.toggle("d-none");
+  dark.classList.toggle("d-none");
+  body.classList.add("dark");
+  theme_color.setAttribute("content", "#1A202C");
+  localStorage.setItem("theme", "dark");
+}
+
+if (localStorage.getItem("theme") == "dark") {
+  setDarkMode();
+}
+
 function wangy(nama) {
   var nama = document.getElementById("nama").value;
   var namaKecil = nama.toLowerCase();
@@ -66,4 +93,10 @@ $("#btn-copy").click(() => {
   temp.select();
   document.execCommand("copy");
   temp.remove();
+});
+$(".dark-mode").click(() => {
+  setDarkMode();
+});
+$(".light-mode").click(() => {
+  setLightMode();
 });
