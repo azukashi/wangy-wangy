@@ -2,16 +2,16 @@
 
 `Wangy Wangy Generator` adalah Generator Tools dan Project Kecil Kecilan yang dibuat karena Iseng. Jika ada yang mau menggunakan, Dipersilahkan.
 
-[![Preview Image](https://cdn.upload.systems/uploads/jN9b1rlJ.png)](https://gifaldyazka.is-a.dev/wangy-wangy)
+[![Preview Image](https://cdn.upload.systems/uploads/s6LTDMqw.png)](https://gifaldyazka.is-a.dev/wangy-wangy)
 
-# How to Use
+## How to Use
 
 - Visit [Wangy Wangy Generator Website](https://gifaldyazkaa.is-a.dev/wangy-wangy)
 - Masukkan Nama Waifu 2D mu di Field yang tersedia.
 - Copy Hasilnya.
 - Enjoy!
 
-# Built with
+## Built with
 
 This Project is Created and Built with
 
@@ -19,11 +19,11 @@ This Project is Created and Built with
 - [SASS 1.35.1](https://sass-lang.com/)
 - Vanilla Javascript
 
-# Contributing
+# #Contributing
 
 We're open to any Contributions! Want to contribute to this project? Follow these instructions!
 
-- [Fork this repo](https://github.com/gifaldyazkaa/wangy-wangy/fork)
+- [Fork this repo!](https://github.com/gifaldyazkaa/wangy-wangy/fork)
 - Clone your fork : `git clone https://github.com/your-username/wangy-wangy.git`
 - Create your feature branch : `git checkout -b my-new-feature`
 - Commit your changes : `git commit -am 'Add some feature'`
@@ -34,3 +34,7 @@ We're open to any Contributions! Want to contribute to this project? Follow thes
 
 - [Gifaldy Azka](https://github.com/gifaldyazkaa)
 - [BayuDC](https://github.com/BayuDC)
+
+## License
+
+This project is licensed under [MIT License](LICENSE).
