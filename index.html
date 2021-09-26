@@ -11,7 +11,7 @@
       name="description"
       content="🌺 Generator Tools that created for fun and designed for weebs"
     />
-    <meta name="theme-color" content="#FFFFFF" />
+    <meta name="theme-color" id="theme-color" content="#FFFFFF" />
 
     <title>Wangy-wangy Generator</title>
 
@@ -27,6 +27,18 @@
   </head>
   <body>
     <div class="container mt-5">
+      <button
+        class="btn mode-toggler d-none light-mode sticky-top mt-1"
+        id="mode-toggler light-mode"
+      >
+        <i class="fas fa-sun"></i>
+      </button>
+      <button
+        class="btn mode-toggler dark-mode sticky-top mt-1"
+        id="mode-toggler dark-mode"
+      >
+        <i class="fas fa-moon"></i>
+      </button>
       <h1 class="text-center">Wangy Wangy Generator</h1>
       <p class="text-center">
         Generator Tools that created and designed for weebs.
@@ -62,27 +74,9 @@
     <footer class="text-center pt-5 footer-sc">
       <hr />
       <p>
-        Created with
-        <a href="https://getbootstrap.com/" class="text-purple"
-          ><i class="fab fa-bootstrap"></i></a
-        >,
-        <a href="https://sass-lang.com/" class="text-pink"
-          ><i class="fab fa-sass"></i></a
-        >,
-        <a href="https://www.javascript.com/" class="text-yellow"
-          ><i class="fab fa-js-square"></i
-        ></a>
-        and <i class="fas fa-heart text-danger"></i> by
-        <a
-          class="text-dark fw-bold hoverable"
-          href="https://github.com/gifaldyazkaa"
+        Created with <i class="fas fa-heart text-danger"></i> by
+        <a class="fw-bold hoverable" href="https://github.com/gifaldyazkaa"
           >Gifaldy Azka</a
-        >
-        &
-        <a
-          class="text-dark fw-bold hoverable"
-          href="https://github.com/gifaldyazkaa/wangy-wangy#author--contributors"
-          >Other Contributors</a
         >
       </p>
     </footer>
