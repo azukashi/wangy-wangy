@@ -1,7 +1,5 @@
 <h1 align="center">Wangy-wangy Generator</h1>
 
-`Wangy Wangy Generator` adalah Generator Tools dan Project Kecil Kecilan yang dibuat karena Iseng. Jika ada yang mau menggunakan, Dipersilahkan.
-
 [![Preview Image](https://cdn.upload.systems/uploads/s6LTDMqw.png)](https://gifaldyazka.is-a.dev/wangy-wangy)
 
 ## How to Use
@@ -19,7 +17,7 @@ This Project is Created and Built with
 - [SASS 1.35.1](https://sass-lang.com/)
 - Vanilla Javascript
 
-# #Contributing
+## Contributing
 
 We're open to any Contributions! Want to contribute to this project? Follow these instructions!
 
@@ -30,7 +28,7 @@ We're open to any Contributions! Want to contribute to this project? Follow thes
 - Push to the branch : `git push origin my-new-feature`
 - Submit a pull request :D
 
-# Contributors
+## Contributors
 
 - [Gifaldy Azka](https://github.com/gifaldyazkaa)
 - [BayuDC](https://github.com/BayuDC)
