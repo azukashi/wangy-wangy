@@ -4,9 +4,9 @@
 
 ## How to Use
 
-- Visit [Wangy Wangy Generator Website](https://gifaldyazkaa.is-a.dev/wangy-wangy)
-- Masukkan Nama Waifu 2D mu di Field yang tersedia.
-- Copy Hasilnya.
+- Type your waifu name at available fields
+- Select available stress template
+- Copy the result
 - Enjoy!
 
 ## Built with
