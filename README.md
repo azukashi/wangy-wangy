@@ -1,6 +1,7 @@
 <h1 align="center">Wangy-wangy Generator</h1>
 
-[![Preview Image](https://cdn.upload.systems/uploads/s6LTDMqw.png)](https://gifaldyazka.is-a.dev/wangy-wangy)
+[![Site Preview](https://cdn.upload.systems/uploads/uYIUNTNu.png)](https://gifaldyazka.is-a.dev/wangy-wangy)
+![License](https://img.shields.io/github/license/gifaldyazkaa/wangy-wangy?style=for-the-badge) ![Repo size](https://img.shields.io/github/repo-size/gifaldyazkaa/wangy-wangy?style=for-the-badge)
 
 ## How to Use
 
