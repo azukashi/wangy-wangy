@@ -63,6 +63,11 @@ button .mode-toggler {
   font-family: "Lexend", sans-serif;
 }
 
+.choose-temp button {
+  font-family: "Lexend", sans-serif;
+  color: #ffffff !important;
+}
+
 .form-group label {
   font-family: "Lexend", sans-serif;
 }
