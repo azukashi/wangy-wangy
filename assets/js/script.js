@@ -138,39 +138,49 @@ $("#temp-2").click(() => {
 });
 
 $("#temp-3").click(() => {
-  const warning = confirm(
-    "WARNING!\n\nTemplate ini berisi kata kata yang sensitif dan untuk usia dewasa!\n\nKamu yakin mau liat hasilnya?"
-  );
-  if (warning == false) {
-    document.getElementById("nama").value = "";
-    document.getElementById("isi").value = "";
-    return;
-  }
-  if (warning == true) {
-    if (document.getElementById("nama").value == "") {
+  Swal.fire({
+    title: "Warning!",
+    text: "Template ini mengandung kata kata sensitif! Yakin mau melihat hasilnya?",
+    icon: "warning",
+    showDenyButton: true,
+    confirmButtonText: "Yes",
+    denyButtonText: `Nevermind`,
+  }).then((result) => {
+    if (result.isConfirmed) {
+      if (document.getElementById("nama").value == "") {
+        return;
+      } else {
+        wangy3(nama);
+      }
+    } else if (result.isDenied) {
+      document.getElementById("nama").value = "";
+      document.getElementById("isi").value = "";
       return;
-    } else {
-      wangy3(nama);
     }
-  }
+  });
 });
 
 $("#temp-4").click(() => {
-  const warning = confirm(
-    "WARNING!\n\nTemplate ini berisi kata kata yang sensitif!\n\nKamu yakin mau liat hasilnya?"
-  );
-  if (warning == false) {
-    document.getElementById("nama").value = "";
-    document.getElementById("isi").value = "";
-    return;
-  }
-  if (warning == true) {
-    if (document.getElementById("nama").value == "") {
+  Swal.fire({
+    title: "Warning!",
+    text: "Template ini mengandung kata kata sensitif! Yakin mau melihat hasilnya?",
+    icon: "warning",
+    showDenyButton: true,
+    confirmButtonText: "Yes",
+    denyButtonText: `Nevermind`,
+  }).then((result) => {
+    if (result.isConfirmed) {
+      if (document.getElementById("nama").value == "") {
+        return;
+      } else {
+        wangy4(nama);
+      }
+    } else if (result.isDenied) {
+      document.getElementById("nama").value = "";
+      document.getElementById("isi").value = "";
       return;
-    } else {
-      wangy4(nama);
     }
-  }
+  });
 });
 
 $("#temp-5").click(() => {
@@ -198,11 +208,26 @@ $("#temp-6").click(() => {
 });
 
 $("#temp-7").click(() => {
-  if (document.getElementById("nama").value == "") {
-    return;
-  } else {
-    wangy7(nama);
-  }
+  Swal.fire({
+    title: "Warning!",
+    text: "Template ini mengandung kata kata sensitif! Yakin mau melihat hasilnya?",
+    icon: "warning",
+    showDenyButton: true,
+    confirmButtonText: "Yes",
+    denyButtonText: `Nevermind`,
+  }).then((result) => {
+    if (result.isConfirmed) {
+      if (document.getElementById("nama").value == "") {
+        return;
+      } else {
+        wangy7(nama);
+      }
+    } else if (result.isDenied) {
+      document.getElementById("nama").value = "";
+      document.getElementById("isi").value = "";
+      return;
+    }
+  });
 });
 
 $("#temp-8").click(() => {
@@ -221,7 +246,11 @@ $("#btn-copy").click(() => {
   temp.select();
   document.execCommand("copy");
   temp.remove();
-  alert("Copied!");
+  Swal.fire({
+    icon: "success",
+    title: "Copied!",
+    text: "Hasil berhasil di-copy ke clipboard!",
+  });
 });
 $("#btn-remove-hasil").click(() => {
   document.getElementById("isi").value = "";
