@@ -1,6 +1,6 @@
 <h1 align="center">Wangy-wangy Generator</h1>
 
-[![Site Preview](https://cdn.upload.systems/uploads/uYIUNTNu.png)](https://gifaldyazka.is-a.dev/wangy-wangy)
+[![Site Preview](https://cdn.upload.systems/uploads/DBtbybSH.png)](https://gifaldyazka.is-a.dev/wangy-wangy)
 ![License](https://img.shields.io/github/license/gifaldyazkaa/wangy-wangy?style=for-the-badge) ![Repo size](https://img.shields.io/github/repo-size/gifaldyazkaa/wangy-wangy?style=for-the-badge)
 
 ## How to Use
@@ -16,6 +16,7 @@ This Project is Created and Built with
 
 - [Bootstrap 5.0.1](https://getbootstrap.com/)
 - [SASS 1.35.1](https://sass-lang.com/)
+- [SweetAlert 2](https://sweetalert2.github.io/)
 - Vanilla Javascript
 
 ## Contributing
