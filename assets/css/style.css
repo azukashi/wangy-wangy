@@ -112,7 +112,7 @@ footer hoverable:hover {
 
 ::-webkit-scrollbar-track {
   -webkit-box-shadow: inset 0 0 5px transparent;
-          box-shadow: inset 0 0 5px transparent;
+  box-shadow: inset 0 0 5px transparent;
   border-radius: 10px;
 }
 
