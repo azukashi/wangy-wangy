@@ -28,6 +28,23 @@ We're open to any contributions! Just make a changes, and Send your PR!
 Here are some wonderful people who contributing to this project
 
 <!-- readme: gifaldyazkaa,contributors,bots -start -->
+<table>
+<tr>
+    <td align="center">
+        <a href="https://github.com/gifaldyazkaa">
+            <img src="https://avatars.githubusercontent.com/u/68645946?v=4" width="100;" alt="gifaldyazkaa"/>
+            <br />
+            <sub><b>Gifaldy Azka</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/BayuDC">
+            <img src="https://avatars.githubusercontent.com/u/62124037?v=4" width="100;" alt="BayuDC"/>
+            <br />
+            <sub><b>Bayu</b></sub>
+        </a>
+    </td></tr>
+</table>
 <!-- readme: gifaldyazkaa,contributors,bots -end -->
 
 ## 📃 License
