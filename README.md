@@ -3,14 +3,14 @@
 [![Site Preview](https://cdn.upload.systems/uploads/swJC6mZ8.png)](https://gifaldyazka.is-a.dev/wangy-wangy)
 ![License](https://img.shields.io/github/license/gifaldyazkaa/wangy-wangy?style=for-the-badge) ![Repo size](https://img.shields.io/github/repo-size/gifaldyazkaa/wangy-wangy?style=for-the-badge)
 
-## How to Use
+## 🤔 How to Use
 
 - Type your waifu name at available fields
 - Select available template
 - Copy the result
 - Enjoy!
 
-## Built with
+## 🖥️ Built with
 
 This Project is Created and Built with
 
@@ -19,15 +19,17 @@ This Project is Created and Built with
 - [SweetAlert 2](https://sweetalert2.github.io/)
 - Vanilla Javascript
 
-## Contributing
+## 📥 Contributing
 
 We're open to any contributions! Just make a changes, and Send your PR!
 
-## Contributors
+## ✨ Contributors
+
+Here are some wonderful people who contributing to this project
 
 <!-- readme: gifaldyazkaa,contributors,bots -start -->
 <!-- readme: gifaldyazkaa,contributors,bots -end -->
 
-## License
+## 📃 License
 
 This Project is Licensed under [MIT License](./LICENSE).
