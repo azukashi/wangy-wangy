@@ -1,0 +1,18 @@
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  contrib-readme-job:
+    runs-on: ubuntu-latest
+    name: "[List] Contributors"
+    steps:
+      - name: Contribute List
+        uses: akhilmhdh/contributors-readme-action@v2.3.3
+        with:
+          columns_per_row: 6
+          commit_message: "feat: update contributor list"
+          pr_title_on_protected: "feat: update contributor list"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -6,7 +6,7 @@
 ## How to Use
 
 - Type your waifu name at available fields
-- Select available stress template
+- Select available template
 - Copy the result
 - Enjoy!
 
@@ -21,20 +21,13 @@ This Project is Created and Built with
 
 ## Contributing
 
-We're open to any Contributions! Want to contribute to this project? Follow these instructions!
-
-- [Fork this repo!](https://github.com/gifaldyazkaa/wangy-wangy/fork)
-- Clone your fork : `git clone https://github.com/your-username/wangy-wangy.git`
-- Create your feature branch : `git checkout -b my-new-feature`
-- Commit your changes : `git commit -am 'Add some feature'`
-- Push to the branch : `git push origin my-new-feature`
-- Submit a pull request :D
+We're open to any contributions! Just make a changes, and Send your PR!
 
 ## Contributors
 
-- [Gifaldy Azka](https://github.com/gifaldyazkaa)
-- [BayuDC](https://github.com/BayuDC)
+<!-- readme: gifaldyazkaa,contributors,bots -start -->
+<!-- readme: gifaldyazkaa,contributors,bots -end -->
 
 ## License
 
-This project is licensed under [MIT License](LICENSE).
+This Project is Licensed under [MIT License](./LICENSE).
