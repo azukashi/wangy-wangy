@@ -1,3 +1,5 @@
+import $ from 'jquery';
+
 // Fungsi buat Dark Mode & Light Mode
 const setLightMode = () => {
     const dark = document.querySelector('.dark-mode');
