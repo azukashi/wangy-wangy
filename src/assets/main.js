@@ -1,4 +1,5 @@
 import $ from 'jquery';
+import Swal from 'sweetalert2';
 
 // Fungsi buat Dark Mode & Light Mode
 const setLightMode = () => {

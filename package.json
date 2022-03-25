@@ -18,8 +18,10 @@
   "author": "gifaldyazkaa",
   "license": "MIT",
   "dependencies": {
+    "@fortawesome/fontawesome-free": "5.15.3",
     "@popperjs/core": "^2.11.4",
     "bootstrap": "^5.1.3",
-    "jquery": "^3.6.0"
+    "jquery": "^3.6.0",
+    "sweetalert2": "^11.4.7"
   }
 }
