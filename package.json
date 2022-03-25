@@ -1,0 +1,11 @@
+{
+  "name": "wangy-wangy",
+  "version": "1.0.0",
+  "description": "Generator Tools that created for fun and designed for weebs",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gifaldyazkaa/wangy-wangy"
+  },
+  "author": "gifaldyazkaa",
+  "license": "MIT"
+}
