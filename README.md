@@ -10,14 +10,54 @@
 - Copy the result
 - Enjoy!
 
+## 🌐 Local server
+
+### 🛠️ Requirements
+
+A node.js >= 16.12.0 setup with [pnpm](https://pnpm.io) is highly recommended.
+
+### 📦 Install all required dependencies
+
+```bash
+pnpm install
+```
+
+### 🏃 Start local server
+
+```bash
+$ pnpm start
+
+# > wangy-wangy@1.0.0 start /home/user/git/wangy-wangy
+# > parcel ./src/index.html
+#
+# Server running at http://localhost:1234
+# ✨ Built in 41ms
+```
+
+### ⚡ Build for Production
+
+```bash
+$ pnpm build
+
+# > wangy-wangy@1.0.0 build /home/user/git/wangy-wangy
+# > parcel build ./src/index.html
+#
+# ✨ Built in 701ms
+#
+# dist/index.html              2.43 KB    29.85s
+# dist/index.df9f6ab7.js     241.23 KB    29.89s
+# dist/index.9180f097.css    155.23 KB     3.59s
+```
+
 ## 🖥️ Built with
 
 This Project is Created and Built with
 
-- [Bootstrap 5.0.1](https://getbootstrap.com/)
-- [SASS 1.35.1](https://sass-lang.com/)
-- [SweetAlert 2](https://sweetalert2.github.io/)
-- Vanilla Javascript
+- [Bootstrap 5.1.3](https://getbootstrap.com)
+- [JQuery](https://jquery.com)
+- [Parcel](https://parceljs.org)
+- [SASS](https://sass-lang.com)
+- [SweetAlert 2](https://sweetalert2.github.io)
 
 ## 📥 Contributing
 
