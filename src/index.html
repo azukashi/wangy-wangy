@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="title" content="Wangy Wangy Generator" />
+    <meta name="description" content="🌺 Generator Tools that created for fun and designed for weebs" />
+    <meta name="theme-color" id="theme-color" content="#FFFFFF" />
+
+    <title>Wangy-wangy Generator</title>
+
+    <meta name="og:image" content="https://cdn.upload.systems/uploads/swJC6mZ8.png" />
+    <meta name="twitter:image" content="https://cdn.upload.systems/uploads/swJC6mZ8.png" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lexend&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous"
+        referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="container mt-5">
+        <button class="btn mode-toggler d-none light-mode sticky-top mt-1" id="mode-toggler light-mode">
+            <i class="fas fa-sun"></i>
+        </button>
+        <button class="btn mode-toggler dark-mode sticky-top mt-1" id="mode-toggler dark-mode">
+            <i class="fas fa-moon"></i>
+        </button>
+        <h1 class="text-center">Wangy Wangy Generator</h1>
+        <p class="text-center">
+            Generator Tools that created and designed for weebs.
+        </p>
+        <hr />
+        <div class="row">
+            <div class="col-md-4">
+                <p>1. Sebutkan nama waifu 2D mu</p>
+                <div class="input-group mb-3" id="input-place">
+                    <input type="text" class="form-control" placeholder="Nama Waifu 2D mu" id="nama" />
+                </div>
+                <p>2. Pilih Template</p>
+                <div class="mb-3 choose-temp" id="btn-templates">
+                    <!-- buttons -->
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            <p>3. Hasilnya (Silahkan Copy)</p>
+            <textarea class="form-control" id="isi" rows="8" disabled></textarea>
+        </div>
+        <div class="d-flex justify-content-end pt-2 cp-btn">
+            <button class="btn btn-primary" id="btn-remove-hasil">
+                Hapus Hasil
+            </button>
+            <button class="btn btn-primary ms-2" id="btn-copy">Copy</button>
+        </div>
+    </div>
+
+    <footer class="text-center pt-5 footer-sc">
+        <hr />
+        <p>
+            Created with <i class="fas fa-heart text-danger"></i> by
+            <a class="fw-bold hoverable" href="https://github.com/gifaldyazkaa">Gifaldy Azka</a>
+        </p>
+    </footer>
+
+    <script src="index.js" type="module"></script>
+</body>
+
+</html>
