@@ -1,7 +1,6 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@fortawesome/fontawesome-free': 5.15.3
   '@parcel/core': ^2.4.0
   '@parcel/transformer-sass': 2.4.0
   '@popperjs/core': ^2.11.4
@@ -11,7 +10,6 @@ specifiers:
   sweetalert2: ^11.4.7
 
 dependencies:
-  '@fortawesome/fontawesome-free': 5.15.3
   '@popperjs/core': 2.11.4
   bootstrap: 5.1.3_@popperjs+core@2.11.4
   jquery: 3.6.0
@@ -44,12 +42,6 @@ packages:
       chalk: 2.4.2
       js-tokens: 4.0.0
     dev: true
-
-  /@fortawesome/fontawesome-free/5.15.3:
-    resolution: {integrity: sha512-rFnSUN/QOtnOAgqFRooTA3H57JLDm0QEG/jPdk+tLQNL/eWd+Aok8g3qCI+Q1xuDPWpGW/i9JySpJVsq8Q0s9w==}
-    engines: {node: '>=6'}
-    requiresBuild: true
-    dev: false
 
   /@parcel/bundler-default/2.4.0_@parcel+core@2.4.0:
     resolution: {integrity: sha512-RaXlxo0M51739Ko3bsOJpDBZlJ+cqkDoBTozNeSc65jS2TMBIBWLMapm8095qmty39OrgYNhzjgPiIlKDS/LWA==}
