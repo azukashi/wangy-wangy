@@ -1,6 +1,6 @@
 # 🌺 Wangy-wangy Generator
 
-[![Site Preview](https://cdn.upload.systems/uploads/swJC6mZ8.png)](https://falcxxdev.ml/wangy-wangy)
+[![Site Preview](https://cdn.upload.systems/uploads/swJC6mZ8.png)](https://wangy.falcxxdev.ml)
 ![License](https://img.shields.io/github/license/gifaldyazkaa/wangy-wangy?style=for-the-badge) ![Repo size](https://img.shields.io/github/repo-size/gifaldyazkaa/wangy-wangy?style=for-the-badge)
 
 ## 🤔 How to Use
@@ -19,14 +19,14 @@ A node.js >= 16.12.0 setup with [pnpm](https://pnpm.io) is highly recommended.
 ### 📦 Install all required dependencies
 
 ```bash
-pnpm install
+$ pnpm install
 ```
 
 ### 🏃 Start local server
 
 ```bash
 $ pnpm start
-
+#
 # > wangy-wangy@1.0.0 start /home/user/git/wangy-wangy
 # > parcel ./src/index.html
 #
@@ -38,15 +38,15 @@ $ pnpm start
 
 ```bash
 $ pnpm build
-
+#
 # > wangy-wangy@1.0.0 build /home/user/git/wangy-wangy
 # > parcel build ./src/index.html
 #
 # ✨ Built in 701ms
 #
 # dist/index.html              2.43 KB    29.85s
-# dist/index.df9f6ab7.js     241.23 KB    29.89s
-# dist/index.9180f097.css    155.23 KB     3.59s
+# dist/index.[hash].js     241.23 KB    29.89s
+# dist/index.[hash].css    155.23 KB     3.59s
 ```
 
 ## 🖥️ Built with
