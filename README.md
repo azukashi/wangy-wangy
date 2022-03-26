@@ -1,6 +1,6 @@
 # 🌺 Wangy-wangy Generator
 
-[![Site Preview](https://cdn.upload.systems/uploads/swJC6mZ8.png)](https://wangy.falcxxdev.ml)
+[![Project Banner](https://cdn.upload.systems/uploads/8815ryAZ.png)](https://wangy.falcxxdev.ml)
 ![License](https://img.shields.io/github/license/gifaldyazkaa/wangy-wangy?style=for-the-badge) ![Repo size](https://img.shields.io/github/repo-size/gifaldyazkaa/wangy-wangy?style=for-the-badge)
 
 ## 🤔 How to Use
