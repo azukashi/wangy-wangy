@@ -1,5 +1,5 @@
 [![Project Banner](https://cdn.upload.systems/uploads/8815ryAZ.png)](https://wangy.falcxxdev.ml)
-![License](https://img.shields.io/github/license/gifaldyazkaa/wangy-wangy?style=for-the-badge) ![Repo size](https://img.shields.io/github/repo-size/gifaldyazkaa/wangy-wangy?style=for-the-badge)
+![Project version](https://img.shields.io/github/package-json/v/gifaldyazkaa/wangy-wangy?logo=node.js&style=for-the-badge) ![Repo size](https://img.shields.io/github/repo-size/gifaldyazkaa/wangy-wangy?style=for-the-badge&logo=github)
 
 ## 🤔 How to Use
 
