@@ -9,7 +9,7 @@ jobs:
     name: "[List] Contributors"
     steps:
       - name: Contribute List
-        uses: akhilmhdh/contributors-readme-action@v2.3.3
+        uses: akhilmhdh/contributors-readme-action@v2.3.4
         with:
           columns_per_row: 6
           commit_message: "feat: update contributor list"
