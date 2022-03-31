@@ -21,9 +21,9 @@
     "sweetalert2": "11.4.7"
   },
   "devDependencies": {
-    "@parcel/core": "2.4.0",
-    "@parcel/transformer-sass": "2.4.0",
-    "parcel": "2.4.0",
+    "@parcel/core": "2.4.1",
+    "@parcel/transformer-sass": "2.4.1",
+    "parcel": "2.4.1",
     "prettier": "2.6.1"
   },
   "repository": {
