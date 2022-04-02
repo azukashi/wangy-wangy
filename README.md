@@ -88,6 +88,13 @@ Here are some wonderful people who contributing to this project
             <br />
             <sub><b>github-actions[bot]</b></sub>
         </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/renovate[bot]">
+            <img src="https://avatars.githubusercontent.com/in/2740?v=4" width="100;" alt="renovate[bot]"/>
+            <br />
+            <sub><b>renovate[bot]</b></sub>
+        </a>
     </td></tr>
 </table>
 <!-- readme: gifaldyazkaa,contributors,bots -end -->
