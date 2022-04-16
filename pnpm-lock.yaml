@@ -3,21 +3,21 @@ lockfileVersion: 5.3
 specifiers:
   '@parcel/core': 2.4.1
   '@parcel/transformer-sass': 2.4.1
-  '@popperjs/core': 2.11.4
+  '@popperjs/core': 2.11.5
   bootstrap: 5.1.3
   husky: 7.0.4
   jquery: 3.6.0
-  lint-staged: 12.3.7
+  lint-staged: 12.3.8
   parcel: 2.4.1
   prettier: 2.6.2
   sweetalert2: 11.4.8
 
 dependencies:
-  '@popperjs/core': 2.11.4
-  bootstrap: 5.1.3_@popperjs+core@2.11.4
+  '@popperjs/core': 2.11.5
+  bootstrap: 5.1.3_@popperjs+core@2.11.5
   husky: 7.0.4
   jquery: 3.6.0
-  lint-staged: 12.3.7
+  lint-staged: 12.3.8
   sweetalert2: 11.4.8
 
 devDependencies:
@@ -799,8 +799,8 @@ packages:
       nullthrows: 1.1.1
     dev: true
 
-  /@popperjs/core/2.11.4:
-    resolution: {integrity: sha512-q/ytXxO5NKvyT37pmisQAItCFqA7FD/vNb8dgaJy3/630Fsc+Mz9/9f2SziBoIZ30TJooXyTwZmhi1zjXmObYg==}
+  /@popperjs/core/2.11.5:
+    resolution: {integrity: sha512-9X2obfABZuDVLCgPK9aX0a/x4jaOEweTTWE2+9sr0Qqqevj2Uv5XorvusThmc9XGYpS9yI+fhh8RTafBtGposw==}
     dev: false
 
   /@swc/helpers/0.3.8:
@@ -897,12 +897,12 @@ packages:
     resolution: {integrity: sha1-aN/1++YMUes3cl6p4+0xDcwed24=}
     dev: true
 
-  /bootstrap/5.1.3_@popperjs+core@2.11.4:
+  /bootstrap/5.1.3_@popperjs+core@2.11.5:
     resolution: {integrity: sha512-fcQztozJ8jToQWXxVuEyXWW+dSo8AiXWKwiSSrKWsRB/Qt+Ewwza+JWoLKiTuQLaEPhdNAJ7+Dosc9DOIqNy7Q==}
     peerDependencies:
       '@popperjs/core': ^2.10.2
     dependencies:
-      '@popperjs/core': 2.11.4
+      '@popperjs/core': 2.11.5
     dev: false
 
   /braces/3.0.2:
@@ -1093,7 +1093,7 @@ packages:
       css-tree: 1.1.3
     dev: true
 
-  /debug/4.3.4_supports-color@9.2.1:
+  /debug/4.3.4_supports-color@9.2.2:
     resolution: {integrity: sha512-PRWFHuSU3eDtQJPvnNY7Jcket1j0t5OuOsFzPPzsekD52Zl8qUfFIPEiswXqIvHWGVHOgX+7G/vCNNhehwxfkQ==}
     engines: {node: '>=6.0'}
     peerDependencies:
@@ -1103,7 +1103,7 @@ packages:
         optional: true
     dependencies:
       ms: 2.1.2
-      supports-color: 9.2.1
+      supports-color: 9.2.2
     dev: false
 
   /detect-libc/1.0.3:
@@ -1404,15 +1404,15 @@ packages:
     resolution: {integrity: sha512-7ylylesZQ/PV29jhEDl3Ufjo6ZX7gCqJr5F7PKrqc93v7fzSymt1BpwEU8nAUXs8qzzvqhbjhK5QZg6Mt/HkBg==}
     dev: true
 
-  /lint-staged/12.3.7:
-    resolution: {integrity: sha512-/S4D726e2GIsDVWIk1XGvheCaDm1SJRQp8efamZFWJxQMVEbOwSysp7xb49Oo73KYCdy97mIWinhlxcoNqIfIQ==}
+  /lint-staged/12.3.8:
+    resolution: {integrity: sha512-0+UpNaqIwKRSGAFOCcpuYNIv/j5QGVC+xUVvmSdxHO+IfIGoHbFLo3XcPmV/LLnsVj5EAncNHVtlITSoY5qWGQ==}
     engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
     hasBin: true
     dependencies:
       cli-truncate: 3.1.0
       colorette: 2.0.16
       commander: 8.3.0
-      debug: 4.3.4_supports-color@9.2.1
+      debug: 4.3.4_supports-color@9.2.2
       execa: 5.1.1
       lilconfig: 2.0.4
       listr2: 4.0.5
@@ -1421,7 +1421,7 @@ packages:
       object-inspect: 1.12.0
       pidtree: 0.5.0
       string-argv: 0.3.1
-      supports-color: 9.2.1
+      supports-color: 9.2.2
       yaml: 1.10.2
     transitivePeerDependencies:
       - enquirer
@@ -1492,19 +1492,73 @@ packages:
     resolution: {integrity: sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==}
     dev: false
 
-  /msgpackr-extract/1.0.16:
-    resolution: {integrity: sha512-fxdRfQUxPrL/TizyfYfMn09dK58e+d65bRD/fcaVH4052vj30QOzzqxcQIS7B0NsqlypEQ/6Du3QmP2DhWFfCA==}
+  /msgpackr-extract-darwin-arm64/1.1.0:
+    resolution: {integrity: sha512-s1kHoT12tS2cCQOv+Wl3I+/cYNJXBPtwQqGA+dPYoXmchhXiE0Nso+BIfvQ5PxbmAyjj54Q5o7PnLTqVquNfZA==}
+    cpu: [arm64]
+    os: [darwin]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /msgpackr-extract-darwin-x64/1.1.0:
+    resolution: {integrity: sha512-yx/H/i12IKg4eWGu/eKdKzJD4jaYvvujQSaVmeOMCesbSQnWo5X6YR9TFjoiNoU9Aexk1KufzL9gW+1DozG1yw==}
+    cpu: [x64]
+    os: [darwin]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /msgpackr-extract-linux-arm/1.1.0:
+    resolution: {integrity: sha512-0VvSCqi12xpavxl14gMrauwIzHqHbmSChUijy/uo3mpjB1Pk4vlisKpZsaOZvNJyNKj0ACi5jYtbWnnOd7hYGw==}
+    cpu: [arm]
+    os: [linux]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /msgpackr-extract-linux-arm64/1.1.0:
+    resolution: {integrity: sha512-AxFle3fHNwz2V4CYDIGFxI6o/ZuI0lBKg0uHI8EcCMUmDE5mVAUWYge5WXmORVvb8sVWyVgFlmi3MTu4Ve6tNQ==}
+    cpu: [arm64]
+    os: [linux]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /msgpackr-extract-linux-x64/1.1.0:
+    resolution: {integrity: sha512-O+XoyNFWpdB8oQL6O/YyzffPpmG5rTNrr1nKLW70HD2ENJUhcITzbV7eZimHPzkn8LAGls1tBaMTHQezTBpFOw==}
+    cpu: [x64]
+    os: [linux]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /msgpackr-extract-win32-x64/1.1.0:
+    resolution: {integrity: sha512-6AJdM5rNsL4yrskRfhujVSPEd6IBpgvsnIT/TPowKNLQ62iIdryizPY2PJNFiW3AJcY249AHEiDBXS1cTDPxzA==}
+    cpu: [x64]
+    os: [win32]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /msgpackr-extract/1.1.4:
+    resolution: {integrity: sha512-WQbHvsThprXh+EqZYy+SQFEs7z6bNM7a0vgirwUfwUcphWGT2mdPcpyLCNiRsN6w5q5VKJUMblHY+tNEyceb9Q==}
     requiresBuild: true
     dependencies:
-      nan: 2.15.0
-      node-gyp-build: 4.4.0
+      node-gyp-build-optional-packages: 4.3.2
+    optionalDependencies:
+      msgpackr-extract-darwin-arm64: 1.1.0
+      msgpackr-extract-darwin-x64: 1.1.0
+      msgpackr-extract-linux-arm: 1.1.0
+      msgpackr-extract-linux-arm64: 1.1.0
+      msgpackr-extract-linux-x64: 1.1.0
+      msgpackr-extract-win32-x64: 1.1.0
     dev: true
     optional: true
 
   /msgpackr/1.5.5:
     resolution: {integrity: sha512-JG0V47xRIQ9pyUnx6Hb4+3TrQoia2nA3UIdmyTldhxaxtKFkekkKpUW/N6fwHwod9o4BGuJGtouxOk+yCP5PEA==}
     optionalDependencies:
-      msgpackr-extract: 1.0.16
+      msgpackr-extract: 1.1.4
     dev: true
 
   /nan/2.15.0:
@@ -1514,6 +1568,12 @@ packages:
   /node-addon-api/3.2.1:
     resolution: {integrity: sha512-mmcei9JghVNDYydghQmeDX8KoAm0FAiYyIcUt/N4nhyAipB17pllZQDOJD2fotxABnt4Mdz+dKTO7eftLg4d0A==}
     dev: true
+
+  /node-gyp-build-optional-packages/4.3.2:
+    resolution: {integrity: sha512-P5Ep3ISdmwcCkZIaBaQamQtWAG0facC89phWZgi5Z3hBU//J6S48OIvyZWSPPf6yQMklLZiqoosWAZUj7N+esA==}
+    hasBin: true
+    dev: true
+    optional: true
 
   /node-gyp-build/4.4.0:
     resolution: {integrity: sha512-amJnQCcgtRVw9SvoebO3BKGESClrfXGCUTX9hSn1OuGQTQBOZmVd0Z0OlecpuRksKvbsUqALE8jls/ErClAPuQ==}
@@ -1858,8 +1918,8 @@ packages:
       has-flag: 4.0.0
     dev: true
 
-  /supports-color/9.2.1:
-    resolution: {integrity: sha512-Obv7ycoCTG51N7y175StI9BlAXrmgZrFhZOb0/PyjHBher/NmsdBgbbQ1Inhq+gIhz6+7Gb+jWF2Vqi7Mf1xnQ==}
+  /supports-color/9.2.2:
+    resolution: {integrity: sha512-XC6g/Kgux+rJXmwokjm9ECpD6k/smUoS5LKlUCcsYr4IY3rW0XyAympon2RmxGrlnZURMpg5T18gWDP9CsHXFA==}
     engines: {node: '>=12'}
     dev: false
 
