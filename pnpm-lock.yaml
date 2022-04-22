@@ -10,7 +10,7 @@ specifiers:
   lint-staged: 12.3.8
   parcel: 2.4.1
   prettier: 2.6.2
-  sweetalert2: 11.4.8
+  sweetalert2: 11.4.9
 
 dependencies:
   '@popperjs/core': 2.11.5
@@ -18,7 +18,7 @@ dependencies:
   husky: 7.0.4
   jquery: 3.6.0
   lint-staged: 12.3.8
-  sweetalert2: 11.4.8
+  sweetalert2: 11.4.9
 
 devDependencies:
   '@parcel/core': 2.4.1
@@ -1214,6 +1214,7 @@ packages:
     resolution: {integrity: sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==}
     engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
     os: [darwin]
+    requiresBuild: true
     dev: true
     optional: true
 
@@ -1937,8 +1938,8 @@ packages:
       stable: 0.1.8
     dev: true
 
-  /sweetalert2/11.4.8:
-    resolution: {integrity: sha512-BDS/+E8RwaekGSxCPUbPnsRAyQ439gtXkTF/s98vY2l9DaVEOMjGj1FaQSorfGREKsbbxGSP7UXboibL5vgTMA==}
+  /sweetalert2/11.4.9:
+    resolution: {integrity: sha512-DAQGODShPfz9cwxDIUuXZuavlq1kOR2uypXa4DxG9YxlIbcCSlbm7BEnXwP/GK9+wI+whvj5iePEByq3RbIoNg==}
     dev: false
 
   /term-size/2.2.1:
