@@ -76,6 +76,13 @@ Here are some wonderful people who contributing to this project
         </a>
     </td>
     <td align="center">
+        <a href="https://github.com/Gifaldyazka">
+            <img src="https://avatars.githubusercontent.com/u/37253794?v=4" width="100;" alt="Gifaldyazka"/>
+            <br />
+            <sub><b>Gifaldy Azka</b></sub>
+        </a>
+    </td>
+    <td align="center">
         <a href="https://github.com/BayuDC">
             <img src="https://avatars.githubusercontent.com/u/62124037?v=4" width="100;" alt="BayuDC"/>
             <br />
