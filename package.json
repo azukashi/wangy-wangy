@@ -18,7 +18,7 @@
     "husky": "8.0.1",
     "jquery": "3.6.0",
     "lint-staged": "12.4.1",
-    "sweetalert2": "11.4.14"
+    "sweetalert2": "11.4.16"
   },
   "devDependencies": {
     "@parcel/core": "2.5.0",
