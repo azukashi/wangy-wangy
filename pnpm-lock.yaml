@@ -9,7 +9,7 @@ specifiers:
   jquery: 3.6.0
   lint-staged: 13.0.1
   parcel: 2.6.0
-  prettier: 2.6.2
+  prettier: 2.7.0
   sweetalert2: 11.4.17
 
 dependencies:
@@ -24,7 +24,7 @@ devDependencies:
   '@parcel/core': 2.6.0
   '@parcel/transformer-sass': 2.6.0_@parcel+core@2.6.0
   parcel: 2.6.0
-  prettier: 2.6.2
+  prettier: 2.7.0
 
 packages:
 
@@ -1829,8 +1829,8 @@ packages:
       posthtml-render: 3.0.0
     dev: true
 
-  /prettier/2.6.2:
-    resolution: {integrity: sha512-PkUpF+qoXTqhOeWL9fu7As8LXsIUZ1WYaJiY/a7McAQzxjk82OF0tibkFXVCDImZtWxbvojFjerkiLb0/q8mew==}
+  /prettier/2.7.0:
+    resolution: {integrity: sha512-nwoX4GMFgxoPC6diHvSwmK/4yU8FFH3V8XWtLQrbj4IBsK2pkYhG4kf/ljF/haaZ/aii+wNJqISrCDPgxGWDVQ==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     dev: true
