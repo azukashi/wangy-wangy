@@ -1,7 +1,4 @@
 [![Project Banner](https://cdn.upload.systems/uploads/8815ryAZ.png)](https://wangy.falcxxdev.ml)
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
 ![Vercel](https://img.shields.io/github/deployments/gifaldyazkaa/wangy-wangy/Production?label=Vercel&logo=vercel&logoColor=black&style=for-the-badge) ![Project version](https://img.shields.io/github/package-json/v/gifaldyazkaa/wangy-wangy?logo=node.js&style=for-the-badge)
 
 ## 🤔 How to Use
@@ -50,11 +47,7 @@ $ pnpm build
 # dist/index.[hash].css    155.23 KB     3.59s
 ```
 
-## 📃 License
-
-This Project is Licensed under [MIT License](./LICENSE).
-
-## Contributors ✨
+## ✨ Contributors
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
@@ -73,3 +66,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+
+## 📃 License
+
+This Project is Licensed under [MIT License](./LICENSE).

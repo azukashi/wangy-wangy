@@ -1,27 +1,28 @@
 {
-  "files": [
-    "README.md"
-  ],
-  "imageSize": 100,
-  "commit": false,
-  "contributors": [
-    {
-      "login": "gifaldyazkaa",
-      "name": "Gifaldy Azka",
-      "avatar_url": "https://avatars.githubusercontent.com/u/68645946?v=4",
-      "profile": "https://falcxxdev.ml",
-      "contributions": [
-        "code",
-        "maintenance",
-        "ideas",
-        "review"
-      ]
-    }
-  ],
-  "contributorsPerLine": 7,
-  "projectName": "wangy-wangy",
-  "projectOwner": "gifaldyazkaa",
-  "repoType": "github",
-  "repoHost": "https://github.com",
-  "skipCi": true
+    "files": [
+        "README.md"
+    ],
+    "imageSize": 100,
+    "commit": false,
+    "contributors": [
+        {
+            "login": "gifaldyazkaa",
+            "name": "Gifaldy Azka",
+            "avatar_url": "https://avatars.githubusercontent.com/u/68645946?v=4",
+            "profile": "https://falcxxdev.ml",
+            "contributions": [
+                "code",
+                "maintenance",
+                "ideas",
+                "review"
+            ]
+        }
+    ],
+    "contributorsPerLine": 7,
+    "projectName": "wangy-wangy",
+    "projectOwner": "gifaldyazkaa",
+    "repoType": "github",
+    "repoHost": "https://github.com",
+    "skipCi": true,
+    "badgeTemplate": ""
 }
