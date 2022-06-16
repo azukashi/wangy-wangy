@@ -1,5 +1,5 @@
 [![Project Banner](https://cdn.upload.systems/uploads/8815ryAZ.png)](https://wangy.falcxxdev.ml)
-![Project version](https://img.shields.io/github/package-json/v/gifaldyazkaa/wangy-wangy?logo=node.js&style=for-the-badge) ![Repo size](https://img.shields.io/github/repo-size/gifaldyazkaa/wangy-wangy?style=for-the-badge&logo=github)
+![Vercel](https://img.shields.io/github/deployments/gifaldyazkaa/wangy-wangy/Production?label=Vercel&logo=vercel&logoColor=black&style=for-the-badge) ![Project version](https://img.shields.io/github/package-json/v/gifaldyazkaa/wangy-wangy?logo=node.js&style=for-the-badge)
 
 ## 🤔 How to Use
 
@@ -46,65 +46,6 @@ $ pnpm build
 # dist/index.[hash].js     241.23 KB    29.89s
 # dist/index.[hash].css    155.23 KB     3.59s
 ```
-
-## 🖥️ Built with
-
-This Project is Created and Built with
-
--   [Bootstrap 5.1.3](https://getbootstrap.com)
--   [JQuery](https://jquery.com)
--   [Parcel](https://parceljs.org)
--   [SASS](https://sass-lang.com)
--   [SweetAlert 2](https://sweetalert2.github.io)
-
-## 📥 Contributing
-
-We're open to any contributions! Just make a changes, and Send your PR!
-
-## ✨ Contributors
-
-Here are some wonderful people who contributing to this project
-
-<!-- readme: gifaldyazkaa,contributors,bots -start -->
-<table>
-<tr>
-    <td align="center">
-        <a href="https://github.com/gifaldyazkaa">
-            <img src="https://avatars.githubusercontent.com/u/68645946?v=4" width="100;" alt="gifaldyazkaa"/>
-            <br />
-            <sub><b>Gifaldy Azka</b></sub>
-        </a>
-    </td>
-    <td align="center">
-        <a href="https://github.com/Gifaldyazka">
-            <img src="https://avatars.githubusercontent.com/u/37253794?v=4" width="100;" alt="Gifaldyazka"/>
-            <br />
-            <sub><b>Gifaldy Azka</b></sub>
-        </a>
-    </td>
-    <td align="center">
-        <a href="https://github.com/BayuDC">
-            <img src="https://avatars.githubusercontent.com/u/62124037?v=4" width="100;" alt="BayuDC"/>
-            <br />
-            <sub><b>Bayu</b></sub>
-        </a>
-    </td>
-    <td align="center">
-        <a href="https://github.com/renovate[bot]">
-            <img src="https://avatars.githubusercontent.com/in/2740?v=4" width="100;" alt="renovate[bot]"/>
-            <br />
-            <sub><b>renovate[bot]</b></sub>
-        </a>
-    </td>
-    <td align="center">
-        <a href="https://github.com/github-actions[bot]">
-            <img src="https://avatars.githubusercontent.com/in/15368?v=4" width="100;" alt="github-actions[bot]"/>
-            <br />
-            <sub><b>github-actions[bot]</b></sub>
-        </a>
-    </td></tr>
-</table>
-<!-- readme: gifaldyazkaa,contributors,bots -end -->
 
 ## 📃 License
 
