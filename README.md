@@ -58,6 +58,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tr>
     <td align="center"><a href="https://falcxxdev.ml"><img src="https://avatars.githubusercontent.com/u/68645946?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Gifaldy Azka</b></sub></a><br /><a href="https://github.com/gifaldyazkaa/wangy-wangy/commits?author=gifaldyazkaa" title="Code">💻</a> <a href="#maintenance-gifaldyazkaa" title="Maintenance">🚧</a> <a href="#ideas-gifaldyazkaa" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/gifaldyazkaa/wangy-wangy/pulls?q=is%3Apr+reviewed-by%3Agifaldyazkaa" title="Reviewed Pull Requests">👀</a></td>
     <td align="center"><a href="https://github.com/BayuDC"><img src="https://avatars.githubusercontent.com/u/62124037?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Bayu</b></sub></a><br /><a href="https://github.com/gifaldyazkaa/wangy-wangy/commits?author=BayuDC" title="Code">💻</a></td>
+    <td align="center"><a href="https://renovate.whitesourcesoftware.com"><img src="https://avatars.githubusercontent.com/u/25180681?v=4?s=100" width="100px;" alt=""/><br /><sub><b>WhiteSource Renovate</b></sub></a><br /><a href="#security-renovate-bot" title="Security">🛡️</a> <a href="#tool-renovate-bot" title="Tools">🔧</a></td>
   </tr>
 </table>
 
