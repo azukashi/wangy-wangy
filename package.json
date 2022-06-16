@@ -1,41 +1,41 @@
 {
-  "name": "wangy-wangy",
-  "version": "1.2.0",
-  "description": "Generator Tools that created for fun and designed for weebs",
-  "author": "Gifaldy Azka <@gifaldyazkaa>",
-  "homepage": "https://wangy.falcxxdev.ml",
-  "license": "MIT",
-  "private": true,
-  "scripts": {
-    "start": "parcel ./src/index.html",
-    "build": "parcel build ./src/index.html",
-    "lint": "prettier -c .",
-    "format": "prettier -w ."
-  },
-  "dependencies": {
-    "@popperjs/core": "2.11.5",
-    "bootstrap": "5.1.3",
-    "husky": "8.0.1",
-    "jquery": "3.6.0",
-    "lint-staged": "13.0.1",
-    "sweetalert2": "11.4.17"
-  },
-  "devDependencies": {
-    "@parcel/core": "2.6.0",
-    "@parcel/transformer-sass": "2.6.0",
-    "parcel": "2.6.0",
-    "prettier": "2.7.1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/gifaldyazkaa/wangy-wangy"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
+    "name": "wangy-wangy",
+    "version": "1.2.0",
+    "description": "Generator Tools that created for fun and designed for weebs",
+    "author": "Gifaldy Azka <me@falcxxdev.ml>",
+    "homepage": "https://wangy.falcxxdev.ml",
+    "license": "MIT",
+    "private": true,
+    "scripts": {
+        "start": "parcel ./src/index.html",
+        "build": "parcel build ./src/index.html",
+        "lint": "prettier -c .",
+        "format": "prettier -w ."
+    },
+    "dependencies": {
+        "@popperjs/core": "2.11.5",
+        "bootstrap": "5.1.3",
+        "husky": "8.0.1",
+        "jquery": "3.6.0",
+        "lint-staged": "13.0.1",
+        "sweetalert2": "11.4.17"
+    },
+    "devDependencies": {
+        "@parcel/core": "2.6.0",
+        "@parcel/transformer-sass": "2.6.0",
+        "parcel": "2.6.0",
+        "prettier": "2.7.1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/gifaldyazkaa/wangy-wangy"
+    },
+    "husky": {
+        "hooks": {
+            "pre-commit": "lint-staged"
+        }
+    },
+    "lint-staged": {
+        "*": "prettier -w"
     }
-  },
-  "lint-staged": {
-    "*": "prettier -w"
-  }
 }

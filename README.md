@@ -3,10 +3,10 @@
 
 ## 🤔 How to Use
 
-- Type your waifu name at available fields
-- Select available template
-- Copy the result
-- Enjoy!
+-   Type your waifu name at available fields
+-   Select available template
+-   Copy the result
+-   Enjoy!
 
 ## 🌐 Local server
 
@@ -51,11 +51,11 @@ $ pnpm build
 
 This Project is Created and Built with
 
-- [Bootstrap 5.1.3](https://getbootstrap.com)
-- [JQuery](https://jquery.com)
-- [Parcel](https://parceljs.org)
-- [SASS](https://sass-lang.com)
-- [SweetAlert 2](https://sweetalert2.github.io)
+-   [Bootstrap 5.1.3](https://getbootstrap.com)
+-   [JQuery](https://jquery.com)
+-   [Parcel](https://parceljs.org)
+-   [SASS](https://sass-lang.com)
+-   [SweetAlert 2](https://sweetalert2.github.io)
 
 ## 📥 Contributing
 
