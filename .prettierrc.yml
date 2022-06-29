@@ -1,6 +1,4 @@
-arrowParens: avoid
-bracketSpacing: true
-endOfLine: lf
-printWidth: 120
 singleQuote: true
 tabWidth: 4
+printWidth: 120
+arrowParens: avoid
