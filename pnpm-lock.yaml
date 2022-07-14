@@ -8,13 +8,13 @@ specifiers:
   jquery: 3.6.0
   parcel: 2.6.2
   prettier: 2.7.1
-  sweetalert2: 11.4.20
+  sweetalert2: 11.4.23
 
 dependencies:
   '@popperjs/core': 2.11.5
   bootstrap: 5.1.3_@popperjs+core@2.11.5
   jquery: 3.6.0
-  sweetalert2: 11.4.20
+  sweetalert2: 11.4.23
 
 devDependencies:
   '@parcel/core': 2.6.2
@@ -1649,8 +1649,8 @@ packages:
       stable: 0.1.8
     dev: true
 
-  /sweetalert2/11.4.20:
-    resolution: {integrity: sha512-3LiBFa5yRmTcqM0vGcFmo0EnhmaMSJfzhFpvZoXK6BOY94HIcIUbwhhW+NY5oXOpz5CT21qFAu0fKCUkOc/Pew==}
+  /sweetalert2/11.4.23:
+    resolution: {integrity: sha512-BfO0gIIHu4SJiixBHpCmd74W+EkORJPX9zy5HLp6vkMAz7RsUED7BhrOBEYrYYgw9nnbxYOwzJDDVPNuK1JQtQ==}
     dev: false
 
   /term-size/2.2.1:
