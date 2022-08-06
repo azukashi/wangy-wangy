@@ -20,12 +20,12 @@
         "@popperjs/core": "2.11.5",
         "bootstrap": "5.2.0",
         "jquery": "3.6.0",
-        "sweetalert2": "11.4.24"
+        "sweetalert2": "11.4.25"
     },
     "devDependencies": {
-        "@parcel/core": "2.6.2",
-        "@parcel/transformer-sass": "2.6.2",
-        "parcel": "2.6.2",
+        "@parcel/core": "2.7.0",
+        "@parcel/transformer-sass": "2.7.0",
+        "parcel": "2.7.0",
         "prettier": "2.7.1"
     }
 }
