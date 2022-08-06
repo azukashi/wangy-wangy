@@ -1,0 +1,7 @@
+# Lockfile
+pnpm-lock.yaml
+package-lock.json
+
+# Generated build
+dist/
+.parcel-cache

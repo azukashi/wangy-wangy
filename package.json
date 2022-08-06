@@ -1,0 +1,32 @@
+{
+    "name": "wangy-wangy",
+    "description": "",
+    "version": "0.0.1",
+    "scripts": {
+        "dev": "parcel src/index.html --host=0.0.0.0 --port=8080",
+        "generate": "parcel build src/index.html",
+        "preview": "serve -sp 8080 dist",
+        "lint": "prettier -c .",
+        "prepare": "husky install"
+    },
+    "author": {
+        "name": "Gifaldy Azka",
+        "email": "me@falcxxdev.ml",
+        "url": "https://falcxxdev.ml"
+    },
+    "license": "MIT",
+    "devDependencies": {
+        "@parcel/core": "^2.6.2",
+        "@parcel/transformer-vue": "^2.6.2",
+        "husky": "^8.0.0",
+        "parcel": "^2.6.2",
+        "prettier": "^2.7.1",
+        "serve": "^14.0.1"
+    },
+    "dependencies": {
+        "@parcel/transformer-sass": "^2.6.2",
+        "nprogress": "^0.2.0",
+        "vue": "^3.2.37",
+        "vue-router": "^4.1.3"
+    }
+}
