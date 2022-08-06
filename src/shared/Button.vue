@@ -11,21 +11,22 @@ export default {
 </template>
 
 <style lang="scss">
+@import '../styles/variable';
 @import '../styles/mixin';
 
 button {
     &.btn {
         height: 2.1rem;
-        color: #fff;
-        background: #0d6efd;
-        font-family: 'Lexend', sans-serif;
+        color: $dark-text;
+        background: $btn-bg;
+        font-family: $lexend;
         font-size: 14px;
         outline: none;
         border: none;
         border-radius: 0.375rem;
         cursor: pointer;
         &:focus {
-            outline: 2px solid #469fa3;
+            outline: 2px solid $outline;
         }
         @include on-mobile() {
             height: 2.4rem;

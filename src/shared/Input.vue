@@ -10,7 +10,9 @@ export default {
 </template>
 
 <style lang="scss">
+@import '../styles/variable';
 @import '../styles/mixin';
+
 .input {
     &__name {
         height: 1.5rem;
@@ -19,11 +21,11 @@ export default {
         padding: 0.375rem 0.75rem;
         border: none;
         outline: none;
-        color: #fff;
-        background-color: #343f53;
-        font-family: 'Lexend', sans-serif;
+        color: $dark-bg;
+        background-color: $input-bg;
+        font-family: $lexend;
         &:focus {
-            outline: 2px solid #469fa3;
+            outline: 2px solid $outline;
         }
         @include on-tablet() {
             height: 2rem;
