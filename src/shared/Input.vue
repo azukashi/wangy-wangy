@@ -2,11 +2,30 @@
 export default {
     name: 'Input',
     props: ['placeholder'],
+    data() {
+        return {
+            inputValue: null,
+        };
+    },
+    methods: {
+        handleInput(e) {
+            if (this.inputValue == '') e = null;
+            this.$emit('receiveInput', this.inputValue);
+        },
+    },
 };
 </script>
 
 <template>
-    <input class="input__name" type="text" name="name" id="name" :placeholder="placeholder" />
+    <input
+        class="input__name"
+        type="text"
+        name="name"
+        id="name"
+        v-model="inputValue"
+        @input="handleInput(inputValue)"
+        :placeholder="placeholder"
+    />
 </template>
 
 <style lang="scss">
