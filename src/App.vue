@@ -1,25 +1,28 @@
 <template>
-    <nav>
-        <router-link :to="{ name: 'Home' }">Home</router-link> |
-        <router-link :to="{ name: 'About' }">About</router-link>
-    </nav>
-    <router-view></router-view>
+    <Container>
+        <Title />
+        <NamaWaifu />
+        <TemplateBtn />
+        <Result />
+    </Container>
 </template>
 
 <script lang="ts">
+import Container from './components/Container.vue';
+import Title from './components/Title.vue';
+import NamaWaifu from './components/NamaWaifu.vue';
+import TemplateBtn from './components/TemplateBtn.vue';
+import Result from './components/Result.vue';
+import NProgress from 'nprogress';
+
 export default {
     name: 'App',
+    components: { Container, Title, NamaWaifu, TemplateBtn, Result },
+    mounted() {
+        NProgress.start();
+        window.addEventListener('load', () => NProgress.done());
+    },
 };
 </script>
 
-<style lang="scss">
-nav {
-    text-align: center;
-    color: #fff;
-    a {
-        color: #41b883;
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
-            'Open Sans', 'Helvetica Neue', sans-serif;
-    }
-}
-</style>
+<style lang="scss"></style>
