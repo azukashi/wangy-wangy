@@ -6,7 +6,7 @@ export default {
 </script>
 
 <template>
-    <textarea class="textarea" disabled name="result" id="result" v-model="text"></textarea>
+    <textarea class="textarea" disabled aria-label="Result preview" name="result" id="result" v-model="text"></textarea>
 </template>
 
 <style lang="scss">
