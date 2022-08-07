@@ -40,7 +40,7 @@ export default {
         padding: 0.375rem 0.75rem;
         border: none;
         outline: none;
-        color: $dark-bg;
+        color: $dark-text;
         background-color: $input-bg;
         font-family: $lexend;
         &:focus {

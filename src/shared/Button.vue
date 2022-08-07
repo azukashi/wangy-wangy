@@ -25,7 +25,7 @@ button {
         border: none;
         border-radius: 0.375rem;
         cursor: pointer;
-        &:focus {
+        &:active {
             outline: 2px solid $outline;
         }
         @include on-mobile() {
