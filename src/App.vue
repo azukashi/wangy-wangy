@@ -1,9 +1,9 @@
 <template>
     <Container>
         <Title />
-        <NamaWaifu />
-        <TemplateBtn />
-        <Result />
+        <NamaWaifu @sendInput="handleInput" />
+        <TemplateBtn :waifu="waifu" @result="handleResult" />
+        <Result :result="result" />
     </Container>
 </template>
 
@@ -21,6 +21,20 @@ export default {
     mounted() {
         NProgress.start();
         window.addEventListener('load', () => NProgress.done());
+    },
+    data() {
+        return {
+            waifu: null,
+            result: null,
+        };
+    },
+    methods: {
+        handleInput(e) {
+            this.waifu = e;
+        },
+        handleResult(e) {
+            this.result = e;
+        },
     },
 };
 </script>
