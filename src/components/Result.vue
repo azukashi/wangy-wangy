@@ -1,6 +1,7 @@
 <script lang="ts">
 import Textarea from '../shared/Textarea.vue';
 import Button from '../shared/Button.vue';
+import * as Toast from '../funcs/toastify';
 
 export default {
     name: 'Result',
@@ -8,8 +9,9 @@ export default {
     props: ['result'],
     methods: {
         copy() {
-            if (this.result == '' || null) return;
+            if (!this.result) return Toast.error('Pilih template terlebih dahulu!');
             navigator.clipboard.writeText(this.result);
+            Toast.success('Teks berhasil di-copy');
         },
         del() {
             (document.getElementById('result') as HTMLTextAreaElement).value = null;

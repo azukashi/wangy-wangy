@@ -1,4 +1,5 @@
 <script lang="ts">
+import * as Toast from '../funcs/toastify';
 import Button from '../shared/Button.vue';
 import templates from '../data/templates';
 
@@ -14,6 +15,7 @@ export default {
     },
     methods: {
         setWangy(int) {
+            if (!this.waifu) return Toast.error('Tulis nama waifu-mu terlebih dahulu!');
             const template = templates[int];
             let text = template.text;
             const nameLower = this.waifu.toLowerCase();
@@ -24,7 +26,6 @@ export default {
             text = text.replaceAll(':nameUpper:', nameUpper);
             text = text.replaceAll(':nameUpperFirst:', nameUpperFirst);
             text = text.replaceAll(':nameUpperLong:', nameUpperLong);
-            if (this.waifu == '' || null) return;
             this.$emit('result', text);
         },
     },
