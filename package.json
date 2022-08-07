@@ -1,7 +1,7 @@
 {
     "name": "wangy-wangy",
     "description": "",
-    "version": "0.0.1",
+    "version": "1.2.0",
     "scripts": {
         "dev": "parcel src/index.html --host=0.0.0.0 --port=8080",
         "generate": "parcel build src/index.html && cp src/seo/* dist",
