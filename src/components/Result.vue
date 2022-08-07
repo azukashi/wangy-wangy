@@ -5,15 +5,25 @@ import Button from '../shared/Button.vue';
 export default {
     name: 'Result',
     components: { Textarea, Button },
+    props: ['result'],
+    methods: {
+        copy() {
+            if (this.result == '' || null) return;
+            navigator.clipboard.writeText(this.result);
+        },
+        del() {
+            (document.getElementById('result') as HTMLTextAreaElement).value = null;
+        },
+    },
 };
 </script>
 
 <template>
     <p>3. Preview (Silahkan copy)</p>
-    <Textarea text=""></Textarea>
+    <Textarea :text="result"></Textarea>
     <div class="btn-wrapper">
-        <Button class="space">Hapus Hasil</Button>
-        <Button>Copy</Button>
+        <Button class="space" @click="del()">Hapus Hasil</Button>
+        <Button @click="copy()">Copy</Button>
     </div>
 </template>
 

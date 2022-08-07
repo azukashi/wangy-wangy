@@ -12,9 +12,7 @@ export default {
     methods: {
         handleInput(val) {
             this.inputValue = val;
-        },
-        sendInput(e) {
-            this.$emit('sendInput', e);
+            this.$emit('sendInput', val);
         },
     },
 };
@@ -22,7 +20,7 @@ export default {
 
 <template>
     <p>1. Sebutkan nama waifu 2D mu</p>
-    <Input placeholder="Keqing, Rem, etc." @input="sendInput(inputValue)" @receiveInput="handleInput" />
+    <Input placeholder="Keqing, Rem, etc." @receiveInput="handleInput" />
 </template>
 
 <style lang="scss"></style>
