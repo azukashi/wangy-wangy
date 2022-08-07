@@ -8,6 +8,7 @@
         "paths": { "@/*": ["./src/*"] },
         "target": "es5"
     },
+    "types": ["vue-sweetalert2"],
     "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"],
     "exclude": ["dist/*"]
 }
