@@ -17,7 +17,14 @@ export default {
         setWangy(int) {
             if (!this.waifu) return Toast.error('Tulis nama waifu-mu terlebih dahulu!');
             const template = templates[int];
+            const sensitive = template.sensitive;
             let text = template.text;
+            if (sensitive)
+                this.$swal.fire({
+                    title: 'Peringatan',
+                    text: 'Template ini mengandung kata kata sensitif! Jika tidak nyaman dengan kata sensitif, silahkan gunakan template lain.',
+                    icon: 'warning',
+                });
             const nameLower = this.waifu.toLowerCase();
             const nameUpper = this.waifu.toUpperCase();
             const nameUpperFirst = this.waifu.charAt(0).toUpperCase() + this.waifu.slice(1);
