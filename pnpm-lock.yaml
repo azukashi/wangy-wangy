@@ -9,14 +9,18 @@ specifiers:
   parcel: ^2.6.2
   prettier: ^2.7.1
   serve: ^14.0.1
+  sweetalert2: ^11.4.26
   toastify-js: ^1.12.0
   vue: ^3.2.37
+  vue-sweetalert2: ^5.0.5
 
 dependencies:
   '@parcel/transformer-sass': 2.6.2_@parcel+core@2.6.2
   nprogress: 0.2.0
+  sweetalert2: 11.4.26
   toastify-js: 1.12.0
   vue: 3.2.37
+  vue-sweetalert2: 5.0.5_vue@3.2.37
 
 devDependencies:
   '@parcel/core': 2.6.2
@@ -2442,6 +2446,10 @@ packages:
       stable: 0.1.8
     dev: true
 
+  /sweetalert2/11.4.26:
+    resolution: {integrity: sha512-YqH/C6IPudeWVK9R0x3pCOqP7m90Ae50tl98SQBpAwL3+UBl1WYD2+5OaKy0ybiVTKbYe76wwJ3PV+bITLjl+A==}
+    dev: false
+
   /term-size/2.2.1:
     resolution: {integrity: sha512-wK0Ri4fOGjv/XPy8SBHZChl8CM7uMc5VML7SqiQ0zG7+J5Vr+RMQDoHa2CNT6KHUnTGIXH34UDMkPzAUyapBZg==}
     engines: {node: '>=8'}
@@ -2526,6 +2534,15 @@ packages:
     resolution: {integrity: sha512-BNGbWLfd0eUPabhkXUVm0j8uuvREyTh5ovRa/dyow/BqAbZJyC+5fU+IzQOzmAKzYqYRAISoRhdQr3eIZ/PXqg==}
     engines: {node: '>= 0.8'}
     dev: true
+
+  /vue-sweetalert2/5.0.5_vue@3.2.37:
+    resolution: {integrity: sha512-Q7+TjQxNwGruT2jfPaSKMz18HHWs81r4umEwlrrtOf/QL5Iwl1T+tUaNkcvKB7Rf9rYftubt7NnOMjfDMnDH3A==}
+    peerDependencies:
+      vue: '*'
+    dependencies:
+      sweetalert2: 11.4.26
+      vue: 3.2.37
+    dev: false
 
   /vue/3.2.37:
     resolution: {integrity: sha512-bOKEZxrm8Eh+fveCqS1/NkG/n6aMidsI6hahas7pa0w/l7jkbssJVsRhVDs07IdDq7h9KHswZOgItnwJAgtVtQ==}
