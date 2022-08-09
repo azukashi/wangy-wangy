@@ -3,3 +3,15 @@ body {
     font-family: $lexend;
     color: #fff;
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
