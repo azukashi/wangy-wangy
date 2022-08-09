@@ -24,7 +24,7 @@
         "serve": "14.0.1"
     },
     "dependencies": {
-        "@iconify/vue": "^3.2.1",
+        "@iconify/vue": "3.2.1",
         "@parcel/transformer-sass": "2.7.0",
         "nprogress": "0.2.0",
         "sweetalert2": "11.4.26",

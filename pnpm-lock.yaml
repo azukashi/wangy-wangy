@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@iconify/vue': ^3.2.1
+  '@iconify/vue': 3.2.1
   '@parcel/core': 2.7.0
   '@parcel/transformer-sass': 2.7.0
   '@parcel/transformer-vue': 2.7.0
