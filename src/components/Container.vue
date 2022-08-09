@@ -12,9 +12,10 @@ export default {
 
 <style lang="scss">
 @import '../styles/mixin';
+
 .container {
     max-width: 1024px;
-    margin: auto;
+    margin: 0 auto;
     padding: 20px 40px;
     @include on-tablet {
         padding: 20px 30px;
