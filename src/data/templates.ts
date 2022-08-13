@@ -79,6 +79,11 @@ const templates = [
         text: 'ANJING NUNGGING GA LU, NUNGGING SEKARANG!!!\nGUA DAH GAK TAHAN, LO POKOKNYA HARUS NUNGGING ANJING PLEASE LO  APA SETIAP HARINYA LIAT LU SLIWAR SLIWER, GUA NGACENG BANGSATTTT LU PAHAM GA SIH SELAMA INI GUA PENGEN LIAT ELU POSTUR NUNGGING, TAU GAK GUA SELALU NAHAN HORNY, DI KANTOR , DI WARUNG, DI RUMAH CUMA PENGEN PUAS PUASIN HASRAT GUA BUAT LIAT ELU NUNGGING PLIS SEKALI AJA PLIS, GAPEDULI DILUAR SANA APA YANG TERJADI, ELO NUNGGING GUA UDAH SENENG BANGSAT ANJING LU KUDU PAHAM GUA GA SUDI KEHILANGAN ELU, LU HARUS SETIDAKNYA NUNGGING DAN MEMBEKAS DI MEMORI INDAH GUA PLIS DEH GW MINTA SEGENAP HATI GW AGAR LU NUNGGING',
         sensitive: true,
     },
+    {
+        num: 14,
+        name: 'Template 15',
+        text: 'Nganu jadi bukannya karena gw pedo atau gimana ya, tapi boleh gak anda bagi instagram, twitter, tiktok, nomor wa, lokasi sekolah, sama lokasi rumahnya, sekali lagi bukan karena gw pedo ya cuma mau ngasih tahu aja adek adeknya untuk ati-ati, bukan buat gw ajak makan, trus ke mall abis itu makanannya gw kasih obat tidur itu enggak, sumpah jadi plis bagi infonya',
+    },
 ];
 
 export default templates;
