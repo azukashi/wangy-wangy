@@ -84,6 +84,11 @@ const templates = [
         name: 'Template 15',
         text: 'Nganu jadi bukannya karena gw pedo atau gimana ya, tapi boleh gak anda bagi instagram, twitter, tiktok, nomor wa, lokasi sekolah, sama lokasi rumahnya, sekali lagi bukan karena gw pedo ya cuma mau ngasih tahu aja adek adeknya untuk ati-ati, bukan buat gw ajak makan, trus ke mall abis itu makanannya gw kasih obat tidur itu enggak, sumpah jadi plis bagi infonya',
     },
+    {
+        num: 15,
+        name: 'Template 16',
+        text: 'Waktu itu SMA kelas 10-11 akhir kehidupan gw biasa aja. Gw kesepian, dan yaa seterusnya sampai gw mau naik dari kelas 11 ke 12. Nah pas akhir semester kelas 11, ada cewek pindahan, nah itu si ayang :nameUpperFirst:. Awalnya gw gak peduli. Kyk beberapa bulan gw perhatiin dia, dia itu pendiem. Pas anak anak cewek ngajak main dia malah pergi, pas dideketin cowok ngehindar. Naaah gw coba deketin deh, awalnya dia kyk ngehindar kontak mata gitu, terus gw tanya, dia jawab. AJG SUARANYA IMUT BANGET. Terus gw ajak pulang sekolah bareng, gw anter ke rumahnya, disitu gw ketemu ibunya, terus ibunya bilang ke :nameUpperFirst: "sekarang kamu dah berubah ya", terus :nameUpperFirst: senyum, gw diajak masuk sama ibunya. Pas gw duduk, ibunya nyuruh :nameUpperFirst: buatin makan sama minum, selagi dia buat makan sama minum, ibunya cerita ke gw, ibunya bilang si :nameUpperFirst: itu pendiem, dia gk suka bicara sama orang, tapi nak, semenjak ketemu kamu (gweh) dia berubah, jadi ceria.',
+    },
 ];
 
 export default templates;
