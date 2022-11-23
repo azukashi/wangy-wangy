@@ -8,9 +8,9 @@ specifiers:
   husky: 8.0.2
   nprogress: 0.2.0
   parcel: 2.8.0
-  prettier: 2.7.1
+  prettier: 2.8.0
   serve: 14.1.2
-  sweetalert2: 11.6.9
+  sweetalert2: 11.6.12
   toastify-js: 1.12.0
   vue: 3.2.45
   vue-sweetalert2: 5.0.5
@@ -19,7 +19,7 @@ dependencies:
   '@iconify/vue': 4.0.0_vue@3.2.45
   '@parcel/transformer-sass': 2.8.0_@parcel+core@2.8.0
   nprogress: 0.2.0
-  sweetalert2: 11.6.9
+  sweetalert2: 11.6.12
   toastify-js: 1.12.0
   vue: 3.2.45
   vue-sweetalert2: 5.0.5_vue@3.2.45
@@ -29,7 +29,7 @@ devDependencies:
   '@parcel/transformer-vue': 2.8.0_@parcel+core@2.8.0
   husky: 8.0.2
   parcel: 2.8.0
-  prettier: 2.7.1
+  prettier: 2.8.0
   serve: 14.1.2
 
 packages:
@@ -2285,8 +2285,8 @@ packages:
       posthtml-render: 3.0.0
     dev: true
 
-  /prettier/2.7.1:
-    resolution: {integrity: sha512-ujppO+MkdPqoVINuDFDRLClm7D78qbDt0/NR+wp5FqEZOoTNAjPHWj17QRhu7geIHJfcNhRk1XVQmF8Bp3ye+g==}
+  /prettier/2.8.0:
+    resolution: {integrity: sha512-9Lmg8hTFZKG0Asr/kW9Bp8tJjRVluO8EJQVfY2T7FMw9T5jy4I/Uvx0Rca/XWf50QQ1/SS48+6IJWnrb+2yemA==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     dev: true
@@ -2521,8 +2521,8 @@ packages:
       stable: 0.1.8
     dev: true
 
-  /sweetalert2/11.6.9:
-    resolution: {integrity: sha512-zx0vdToB2Ququk+0qbXruca5KJuScyno77cqPfuwSiRwlMS5CwwnZDWiLqcRlIAZzDEbZHz9g/T7BDqAGqsQlA==}
+  /sweetalert2/11.6.12:
+    resolution: {integrity: sha512-4sYS3CE9cFLkHrmE7Tif0GL4i5L0uAIJh0At/c8jWSGqzpIQf51Iw5s/XWKl1OYFoaVxk5UljBPR9e+wfI7tkQ==}
     dev: false
 
   /term-size/2.2.1:
@@ -2615,7 +2615,7 @@ packages:
     peerDependencies:
       vue: '*'
     dependencies:
-      sweetalert2: 11.6.9
+      sweetalert2: 11.6.12
       vue: 3.2.45
     dev: false
 
