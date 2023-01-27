@@ -2,11 +2,24 @@
 export default {
     name: 'Textarea',
     props: ['text'],
+    data() {
+        return {
+            txt: '',
+        };
+    },
+    watch: {
+        text: {
+            immediate: true,
+            handler(newVal, oldVal) {
+                this.txt = newVal;
+            },
+        },
+    },
 };
 </script>
 
 <template>
-    <textarea class="textarea" disabled aria-label="Result preview" name="result" id="result" v-model="text"></textarea>
+    <textarea class="textarea" disabled aria-label="Result preview" name="result" id="result" v-model="txt"></textarea>
 </template>
 
 <style lang="scss">
