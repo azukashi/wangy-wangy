@@ -10,7 +10,7 @@ specifiers:
   parcel: 2.8.3
   prettier: 2.8.4
   serve: 14.2.0
-  sweetalert2: 11.7.1
+  sweetalert2: 11.7.2
   toastify-js: 1.12.0
   vue: 3.2.47
   vue-sweetalert2: 5.0.5
@@ -19,7 +19,7 @@ dependencies:
   '@iconify/vue': 4.1.0_vue@3.2.47
   '@parcel/transformer-sass': 2.8.3_@parcel+core@2.8.3
   nprogress: 0.2.0
-  sweetalert2: 11.7.1
+  sweetalert2: 11.7.2
   toastify-js: 1.12.0
   vue: 3.2.47
   vue-sweetalert2: 5.0.5_vue@3.2.47
@@ -2527,8 +2527,8 @@ packages:
       stable: 0.1.8
     dev: true
 
-  /sweetalert2/11.7.1:
-    resolution: {integrity: sha512-+1bnkbqBl64FnZmi3g4SzAi4F3pL3S2jF1YQvrysv4GbgizfeFqGkJopxR3FnV/eJm6w2SQ2oAmCxSIBjgP/ag==}
+  /sweetalert2/11.7.2:
+    resolution: {integrity: sha512-atPjDa3fv/4xwZpiAt7FZUgAhR5VAASiLP2hu7HUeVDXx+v4/9nD1W0u8xal1e9f2/qGh0DwTxPXPV9XoZIBvg==}
     dev: false
 
   /term-size/2.2.1:
@@ -2621,7 +2621,7 @@ packages:
     peerDependencies:
       vue: '*'
     dependencies:
-      sweetalert2: 11.7.1
+      sweetalert2: 11.7.2
       vue: 3.2.47
     dev: false
 
