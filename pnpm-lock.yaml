@@ -8,7 +8,7 @@ specifiers:
   husky: 8.0.3
   nprogress: 0.2.0
   parcel: 2.8.3
-  prettier: 2.8.4
+  prettier: 2.8.5
   serve: 14.2.0
   sweetalert2: 11.7.3
   toastify-js: 1.12.0
@@ -29,7 +29,7 @@ devDependencies:
   '@parcel/transformer-vue': 2.8.3_@parcel+core@2.8.3
   husky: 8.0.3
   parcel: 2.8.3
-  prettier: 2.8.4
+  prettier: 2.8.5
   serve: 14.2.0
 
 packages:
@@ -2285,8 +2285,8 @@ packages:
       posthtml-render: 3.0.0
     dev: true
 
-  /prettier/2.8.4:
-    resolution: {integrity: sha512-vIS4Rlc2FNh0BySk3Wkd6xmwxB0FpOndW5fisM5H8hsZSxU2VWVB5CWIkIjWvrHjIhxk2g3bfMKM87zNTrZddw==}
+  /prettier/2.8.5:
+    resolution: {integrity: sha512-3gzuxrHbKUePRBB4ZeU08VNkUcqEHaUaouNt0m7LGP4Hti/NuB07C7PPTM/LkWqXoJYJn2McEo5+kxPNrtQkLQ==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     dev: true
