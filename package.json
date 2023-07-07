@@ -6,8 +6,7 @@
         "dev": "parcel src/index.html --host=0.0.0.0 --port=8080",
         "generate": "parcel build src/index.html && cp src/seo/* dist",
         "preview": "serve -sp 8080 dist",
-        "lint": "prettier -c .",
-        "prepare": "husky install"
+        "lint": "prettier -c ."
     },
     "author": {
         "name": "Falcxxdev",
