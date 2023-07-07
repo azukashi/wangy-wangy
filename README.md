@@ -12,7 +12,7 @@
 
 ### 🛠️ Requirements
 
-A [node.js](https://nodejs.org) >= 12.16.2 setup with [pnpm](https://pnpm.io) is highly recommended.
+A [node.js](https://nodejs.org) >= 18.x setup with [pnpm](https://pnpm.io) is highly recommended.
 
 ### 📦 Install all required dependencies
 
