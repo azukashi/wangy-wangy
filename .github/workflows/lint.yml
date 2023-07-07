@@ -41,4 +41,4 @@ jobs:
                       ${{ runner.os }}-pnpm-store-
 
             - name: Check Format
-              run: pnpm dlx prettier -c .
+              run: pnpm dlx prettier --config .prettierrc.yml -c .
