@@ -12,9 +12,9 @@ export default {
     <footer>
         <div class="separator"></div>
         <Container>
-            <p>Made with ❤️ by <b>Gifaldy Azka</b></p>
+            <p>Made with ❤️ by <b>Azukashiic</b></p>
             <span>|</span>
-            <a href="https://github.com/gifaldyazkaa" target="_blank">
+            <a href="https://github.com/azukashi" target="_blank">
                 <Icon name="bxl:github" width="24" height="24" />
             </a>
         </Container>
