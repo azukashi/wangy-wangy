@@ -8,6 +8,8 @@
 -   Copy the result
 -   Enjoy!
 
+Did you like this project? Support me on [Trakteer](https://trakteer.id/azukashiic)!
+
 ## 🌐 Development server
 
 ### 🛠️ Requirements
